@@ -1,0 +1,23 @@
+{
+	"functionName": "countOne",
+	"secondsPerTest": 5,
+	"description": "Given an array of values `numbers` calculate and return the number of 1's in the binary form of all the values in the array.",
+	"output": "The number of 1's in the binary form of the given array.",
+	"example": "given `numbers=[1,2,3,4]` the answer should be `5`. In binary `1=1` which has one 1, `2=10` which has one 1, `3=11` which has two 1's and `4=100` which has one 1. `1+1+2+1=5`.",
+	"inputs": [
+		{
+			"param": "numbers",
+			"text": "An array of values where `0 <= numbers.length <= 2<sup>10</sup>` and for every `0 <= i < numbers.length` it is ensured that `0 <= numbers[i] < 2<sup>30</sup>`."
+		}
+	],
+	"tests": [
+		[[[1,2,3]],4],
+		[[[0,0,0]],0],
+		[[[10,234,50000,10000]],18],
+		[[[]],0],
+		[[[1,7,9,100]],9],
+		[[[7]],3],
+		[[[888,999,111,333,555]],30]
+	]
+	
+}

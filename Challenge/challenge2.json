@@ -1,0 +1,27 @@
+{
+	"functionName": "countX",
+	"secondsPerTest": 5,
+	"description": "Given a digit `x` and another number `N` calculate the amount of numbers that have the digit `x` in all numbers between `1` and `10<sup>N</sup>`",
+	"output": "The number of amount of numbers that have the digit `x` in all numbers z `0 < z <= 10<sup>N</sup>`.",
+	"example": "given `x=7` and `N=2` the result should be countX(x,N)=19.<br> The numbers are: `7,17,27,37,47,57,67,``70,71,72,73,74,75,76,77,78,79,87,97`",
+	"inputs": [
+		{
+			"param": "x",
+			"text": "The given digit, `1 <= x <= 9`."
+		},
+		{
+			"param": "N",
+			"text": "A number, `0 < N <= 10`."
+		}
+	],
+	"tests": [
+		[[1,2],20],
+		[[9,10],6513215599],
+		[[7,3],271],
+		[[1,3],272],
+		[[1,6],468560],
+		[[5,3],271],
+		[[8,3],271]
+	]
+	
+}

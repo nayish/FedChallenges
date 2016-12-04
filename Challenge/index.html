@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Challenge</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+	</nav>
+	<a href="https://il.linkedin.com/in/nayish" class="copyright">&copy; Nachshon Schwartz</a>
+	<h1> Challenge <span class="function-number"></span>: <span class="function-name"></span></h1>
+	<section id="left">
+		<h4>Description</h4>
+		<p id="description"></p>
+		<h4>Example</h4>
+		<p id="example"></p>
+		<div id="inputs"></div>
+		<h4>[output]</h4>
+		<p id="output"></p>
+	</section><section id="right">
+		<textarea autofocus id="textbox"></textarea>
+		<img src="/reload.png" class="reload">
+		<div class="buttons">
+			<div id="answer"></div><div class="buttons-area">
+				<span id="count" title="Number of characters exluding whitespaces and comments"></span>
+				<button class="run btn">R</button>
+				<input type="button" class="save btn" value="Save">
+			</div>
+		</div>
+		<div class="tests"></div>
+	</section>
+	
+	<div class="templates">
+		<div class="test">
+			<div class="header">
+				<div class="title"></div>
+				<div class="status"></div>
+			</div>
+			<div class="body">
+				<div class="error-message"></div>
+				<div><span class="property">Parameters: </span><span class="param"></span></div>
+				<div><span class="property">Expected Result: </span><span class="expected-result"></span></div>
+				<div><span class="property">Result: </span><span class="result"></span></div>
+				<div><span class="property">Console: </span><span class="console"></span></div>
+			</div>
+		</div>
+		<div class="input">
+			<h4></h4>
+			<p></p>
+		</div>
+		<div class="challenge-link">
+			<div class="challenge-link-title">Challenge <span class="challenge-number"></span></div>
+			<div class="challenge-link-description">
+				<span class="challenge-name"></span>
+				(<span class="challenge-points"></span> points)
+			</div>
+		</div>
+		<div class="console-line"></div>
+	</div>
+	<script src="jquery-1.11.3.js"></script>
+	<script src="app.js"></script>	
+</body>
+</html>
