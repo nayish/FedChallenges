@@ -1,3 +1,3 @@
 # FedChallenges
 
-Can be viewed here: http://fed-challenge.bitballoon.com/
+Can be viewed here: https://front-end-challenges.netlify.app/?challenge=1
